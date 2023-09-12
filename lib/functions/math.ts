@@ -1,0 +1,17 @@
+export const add = (a: number, b: number) => a + b;
+export const subtract = (a: number, b: number) => a - b;
+export const multiply = (a: number, b: number) => a * b;
+export const divide = (a: number, b: number) => a / b;
+export const remainder = (a: number, b: number) => a % b;
+export const power = (a: number, b: number) => Math.pow(a, b);
+export const sqrt = (value: number) => Math.sqrt(value);
+export const abs = (value: number) => Math.abs(value);
+export const sin = (value: number) => Math.sin(value);
+export const cos = (value: number) => Math.cos(value);
+export const tan = (value: number) => Math.tan(value);
+export const log = (value: number) => Math.log(value);
+export const floor = (value: number) => Math.floor(value);
+export const ceil = (value: number) => Math.ceil(value);
+export const round = (value: number) => Math.round(value);
+export const min = (...values: number[]) => Math.min(...values);
+export const max = (...values: number[]) => Math.max(...values);

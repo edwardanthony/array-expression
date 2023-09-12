@@ -1,0 +1,9 @@
+coverage/
+node_modules/
+lib/
+package-lock.json
+.eslintrc.js
+tsconfig.json
+.prettierrc
+.commitlintrc.json
+jest.config.ts
